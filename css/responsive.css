@@ -1,0 +1,9 @@
+/*media query breakpoints*/
+
+@media screen and (max-width: 320px) {
+  #links-content {
+    width: 320px;
+}
+
+}
+
