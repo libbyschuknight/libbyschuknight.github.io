@@ -4,16 +4,16 @@
 * {
   /*border: 1px solid white;*/
   margin: 0 auto;
-  background-color: lightgray;
+  /*background-color: lightgray;*/
 }
 
 /* GENERAL */
 
 body {
   font-family: 'Raleway', 'Trebuchet MS', Helvetica, sans-serif; ;
-  color: rgb(5, 112, 178);
+  color: rgb(7, 74, 115);
   /*#495C71*/
-  /*background-color: lightgray;*/
+  background-color: lightgray;
   /* #bdc3c7 */
 }
 
@@ -25,12 +25,6 @@ body {
   display: block;
 }
 
-#links-content {
-    height: 1000px;
-    max-width: 1000px;
-    border-top: solid 1px #495C71;
-    width: 90%;
-}
 
 h1 {
   font-size: 1.5em;
@@ -46,6 +40,30 @@ h3 {
   border: solid 1px #495C71;
 }
 
+/* SOCIAL MEDIA AND PROF SITE LINKS*/
+/* LINKS SECTION (instead of nav) */
+#links-content {
+  max-width: 1000px;
+  border-top: solid 1px #495C71;
+  width: 90%;
+  text-align:center;
+  background-color: rgb(7, 74, 115);
+}
+
+
+/* LINKS - layout / structure*/
+#links-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+}
+
+#links-content li {
+  display: inline-block;
+  margin: 10px 10px;
+  min-width: 95px;
+}
 
 /* LINKS */
 a {
@@ -54,43 +72,44 @@ a {
 
 /* LINK COLOURS */
 
-/*  link*/
+/*  links */
 a {
-  color: rgb(7, 74, 115);
+  color: #5A5B5C;
+  /*rgb(39, 114, 148);*/
+  /*color: rgb(80, 98, 108);*/
 }
 
 /*  link - visisted*/
 a:visited {
-  color: rgb(7, 74, 115);
+
 }
 
 /* selected hover  link*/
 a.selected, a:hover  {
-  color: rgb(15, 145, 224);
+  color: rgb(5, 161, 232);
 }
 
-/* SOCIAL MEDIA AND PROF SITE LINKS*/
+/*rgb(84, 138, 171)*/
 
-#links-content {
-  text-align:center;
-  padding: 10px 0;
-  margin:20px 0 0;
-}
-
-#links-content ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
-
-#links-content li {
-  display: inline-block;
-}
 
 #links-content a {
   font-weight: normal;
   padding: 15px 10px;
+  color: rgb(188, 223, 239);
 }
+
+
+/* link - visisted */
+#links-content a:visited {
+  /*color: rgb(80, 98, 108);*/
+}
+
+/* selected hover  link */
+#links-content a:hover  {
+  color: rgb(5, 161, 232);
+}
+
+
 
 
 
