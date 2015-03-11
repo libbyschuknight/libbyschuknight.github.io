@@ -13,7 +13,7 @@ body {
   font-family: 'Raleway', 'Trebuchet MS', Helvetica, sans-serif; ;
   color: rgb(7, 74, 115);
   /*#495C71*/
-  background-color: #B9BEC2;
+  background-color: #BCDFEF;
   /* #bdc3c7 */
 }
 
@@ -27,7 +27,7 @@ body {
 
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 h3 {
@@ -42,17 +42,19 @@ h3 {
 
 /* SOCIAL MEDIA AND PROF SITE LINKS*/
 /* LINKS SECTION (instead of nav) */
+
 #links-content {
-  max-width: 1000px;
-  border-top: solid 1px #495C71;
-  width: 90%;
+  /*max-width: 1000px;*/
+  /*border-top: solid 1px #495C71;*/
+  /*width: 100%;*/
   text-align:center;
   background-color: rgb(7, 74, 115);
 }
 
 
-/* LINKS - layout / structure*/
+/* LINKS CONTENT SECTION- layout / structure */
 #links-content ul {
+  width: 200px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -63,6 +65,46 @@ h3 {
   display: inline-block;
   margin: 10px 10px;
   min-width: 95px;
+}
+
+/* PHASES SECTION - layout */
+
+.phases {
+  text-align: center;
+  /*max-width: 1000px;*/
+  padding-bottom: 5px;
+  width: 90%;
+  display: block;
+}
+
+.phases ul {
+  width: 225px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+}
+
+.phases li {
+  display: inline-block;
+  margin: 5px 5px;
+  /*min-width: 95px;*/
+}
+
+.phases p {
+  margin: 0 10% 20px 10%;
+  font-size: 1em;
+}
+
+#phase_0 {
+  border-bottom: 3px solid rgb(7, 74, 115);
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+
+#footer {
+  text-align: center;
 }
 
 /* LINKS */

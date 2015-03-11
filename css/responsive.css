@@ -1,9 +1,28 @@
 /*media query breakpoints*/
 
-@media screen and (max-width: 320px) {
-  #links-content {
-    width: 320px;
-}
+@media screen and (min-width: 400px) {
+  #links-content ul {
+    width: 300px;
+  }
 
 }
 
+@media screen and (min-width: 600px) {
+  #links-content ul {
+    width: 100%;
+  }
+
+  .phases ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+  }
+
+  .phases li {
+    display: inline-block;
+    margin: 10px 10px;
+  }
+
+}
