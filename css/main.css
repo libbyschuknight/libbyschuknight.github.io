@@ -78,7 +78,7 @@ h3 {
 }
 
 .phases ul {
-  width: 200px;
+  width: 225px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -89,6 +89,11 @@ h3 {
   display: inline-block;
   margin: 5px 5px;
   /*min-width: 95px;*/
+}
+
+.phases p {
+  margin: 0 10% 20px 10%;
+  font-size: 1em;
 }
 
 #phase_0 {
