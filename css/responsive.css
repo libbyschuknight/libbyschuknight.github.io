@@ -1,5 +1,27 @@
 /*media query breakpoints*/
 
+/* Media Queries for mobile dropdown menu */
+
+@media (min-width: 320px) and (max-width: 568px){
+  #menu ul {
+    display: none; /* hide the normal menu */
+  }
+  h1 {
+    font-size: 1.25em;
+  }
+}
+
+@media (min-width: 568px){
+  #menu select {
+    display: none;
+  }
+
+}
+
+
+
+/* Other Media Queries */
+
 @media screen and (min-width: 400px) {
   #links-content ul {
     width: 300px;
