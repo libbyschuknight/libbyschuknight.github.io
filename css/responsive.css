@@ -3,11 +3,16 @@
 /* Media Queries for mobile dropdown menu */
 
 @media (min-width: 320px) and (max-width: 568px){
-  #menu ul {
-    display: none; /* hide the normal menu */
+/*  #menu ul {
+    display: none;  hide the normal menu
   }
+*/
   h1 {
-    font-size: 1.25em;
+    font-size: 2em;
+    border: rgb(7, 74, 115) solid 0.05em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color:#ecf0f1 ;
   }
 }
 
