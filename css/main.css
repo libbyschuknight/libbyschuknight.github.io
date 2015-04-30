@@ -13,15 +13,24 @@ body {
   font-family: 'Raleway', 'Trebuchet MS', Helvetica, sans-serif; ;
   color: rgb(7, 74, 115);
   /*#495C71*/
-  background-color: #BCDFEF;
+  background-color: #fff; /*#BCDFEF;*?
   /* #bdc3c7 */
 }
 
-#heading, #about {
+#about, #whatIdo, #online {
   text-align: center;
   max-width: 1000px;
   padding-bottom: 5px;
   width: 90%;
+  display: block;
+  border: black solid 1px;
+}
+
+#heading {
+  text-align: center;
+  max-width: 1000px;
+  padding-bottom: 5px;
+  /*width: 90%;*/
   display: block;
 }
 
@@ -29,6 +38,10 @@ body {
 h1 {
   font-size: 2em;
   margin-bottom: 0;
+}
+
+h2 {
+  color: #fff;
 }
 
 h3 {
@@ -42,10 +55,29 @@ h3 {
   border: solid 1px #495C71;
 }
 
+
+/* Background heading image
+#ffd400
+*/
+
+.header {
+  /*position: absolute;*/
+  padding-top: 100px;
+  /*width: 100%;*/
+  /*height: 100%;*/
+ /* background: linear-gradient(#000, transparent 90%),
+        linear-gradient(0deg, #fff, transparent),
+        #ffd400 url('../img/lyallbay.jpg') no-repeat center;*/
+  background-image: url("../img/lyallbay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center;
+}
+
+
 /* Page navigation stylying */
 
 #menu {
-  background: rgb(7, 74, 115);
+  /*background: rgb(7, 74, 115);*/
   height: 40px;
   padding: 0 5px 0;
   text-align: center;
@@ -58,7 +90,7 @@ h3 {
 
 #menu ul li {
   display: inline-block;
-  width: 84px;
+  width: 80px;
   text-align: center;
 }
 
@@ -72,42 +104,42 @@ h3 {
 /*rgb(188, 223, 239)*/
 
 #menu ul li.selected {
-  background: #f0f0f0;
-  /*border-top: solid 1px rgb(7, 74, 115);*/
+  /*background: #f0f0f0;*/
+  border: solid 1px rgb(7, 74, 115);
   /*border-bottom: solid 1px rgb(7, 74, 115);*/
 
 }
 
-#menu ul li.selected a {
+/*#menu ul li.selected a {
   color: rgb(7, 74, 115);
-}
+}*/
 
 #menu a:hover  {
-  color: rgb(5, 161, 232);
+  color: #000; /*rgb(5, 161, 232);*/
 }
 
-select {
+/*select {
   width: 94%;
   margin: 11px 0 11px 2%;
   float: left;
-}
+}*/
 
 
 
 /* SOCIAL MEDIA AND PROF SITE LINKS*/
 /* LINKS SECTION (instead of nav) */
 
-#links-content {
+/*#links-content {
   /*max-width: 1000px;*/
   /*border-top: solid 1px #495C71;*/
   /*width: 100%;*/
   text-align:center;
   background-color: rgb(7, 74, 115);
-}
+}*/
 
 
 /* LINKS CONTENT SECTION- layout / structure */
-#links-content ul {
+#about ul {
   width: 200px;
   list-style: none;
   padding: 0;
@@ -115,17 +147,17 @@ select {
   margin: 0 auto;
 }
 
-#links-content li {
+#about li {
   display: inline-block;
   margin: 10px 10px;
   min-width: 95px;
 }
 
-/* PHASES SECTION - layout */
+/*/* PHASES SECTION - layout */
 
-.phases {
+/*.phases {
   text-align: center;
-  /*max-width: 1000px;*/
+  /*max-width: 1000px;
   padding-bottom: 5px;
   width: 90%;
   display: block;
@@ -142,7 +174,7 @@ select {
 .phases li {
   display: inline-block;
   margin: 5px 5px;
-  /*min-width: 95px;*/
+  /*min-width: 95px;*
 }
 
 .phases p {
@@ -155,7 +187,7 @@ select {
   padding-bottom: 15px;
   width: 100%;
 }
-
+*/
 
 #footer {
   text-align: center;
