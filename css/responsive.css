@@ -1,6 +1,7 @@
 /*media query breakpoints*/
 
-/* Media Queries for mobile dropdown menu */
+/* Now for everything
+was Media Queries for mobile dropdown menu */
 
 @media (min-width: 320px) and (max-width: 568px){
 /*  #menu ul {
@@ -8,13 +9,13 @@
   }
 */
   h1 {
-    font-size: 2em;
+    /*font-size: 2em;*/
     color: #fff;
-    border: #fff solid 0.05em;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    margin-left: 80px;
-    margin-right: 80px;
+    /*border: #fff solid 0.05em;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 10px;
 
   }
@@ -31,6 +32,11 @@
 
   #menu, ol, ul {
     padding-left: 0;
+  }
+
+  #about p, #whatIdo p, #online p {
+    font-size: 0.875em;
+    font-weight: 300;
   }
 
 /*  #heading h1 {
