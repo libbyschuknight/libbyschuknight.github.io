@@ -269,12 +269,12 @@ p {
 
 }
 
-#online.gh-sites li {
-  margin-left: 0;
+ul.gh-sites li {
+  padding-left: 20px;
 }
 
 
-#whatIdo p {
+.icon-center {
   text-align: center;
 }
 

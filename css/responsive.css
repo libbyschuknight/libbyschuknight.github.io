@@ -9,7 +9,7 @@ was Media Queries for mobile dropdown menu */
   }
 */
   h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     color: #fff;
     /*border: #fff solid 0.05em;*/
     padding-top: 5px;
@@ -42,6 +42,9 @@ was Media Queries for mobile dropdown menu */
     padding-bottom: 100px;
   }*/
 
+  #footer {
+    font-size: 0.75em;
+  }
 
   a:hover  {
     color: rgb(5, 161, 232);
