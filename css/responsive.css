@@ -65,14 +65,14 @@ was Media Queries for mobile dropdown menu */
 
   }
 
-  #online ul li p {
+/*  #online ul li p {
     display: inline-block;
     text-align: center;
     color: #333;
     top: 50%;
     transform: translate(0, -20%);
     margin-bottom: 0;
-  }
+  }*/
 
 }
 

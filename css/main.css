@@ -112,7 +112,7 @@ p {
   /*padding-top: 100px;*/
   margin-top: 100px;
   padding-bottom: 100px;
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 
  /* background: linear-gradient(#000, transparent 90%),
         linear-gradient(0deg, #fff, transparent),
@@ -170,7 +170,8 @@ p {
 }*/
 
 #menu a:hover  {
-  color: #000; /*rgb(5, 161, 232);*/
+  color: rgb(7, 74, 115);
+  /*color: rgb(5, 161, 232);*/
 }
 
 /*select {
@@ -239,32 +240,32 @@ p {
 }
 
 
- #online ul {
-    display: block;
+#online ul {
+  display: block;
 
-  }
+}
 
-  #online li {
-    text-align: left;
-    margin-left: 30px;
-    list-style-type: none;
-    margin-bottom: 20px;
-  }
+#online li {
+  text-align: left;
+  margin-left: 30px;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
 
-  #online img {
-    height: 30px;
-    width: 30px;
+#online img {
+  height: 30px;
+  width: 30px;
 
 
-  }
+}
 
-  #online ul li p {
-    display: inline-block;
-    text-align: center;
-    color: #333;
-    top: 50%;
-    transform: translate(0, -20%);
-    margin-bottom: 0;
+#online ul li p {
+  display: inline-block;
+  text-align: center;
+  /*color: #333;*/
+  top: 50%;
+  transform: translate(0, -20%);
+  margin-bottom: 0;
 
 }
 
@@ -272,6 +273,10 @@ p {
   margin-left: 0;
 }
 
+
+#whatIdo p {
+  text-align: center;
+}
 
 
 #footer {
