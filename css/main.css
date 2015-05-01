@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway);
-
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
 /* To use for development, delete when finished*/
 * {
   /*border: 1px solid white;*/
@@ -10,56 +9,144 @@
 /* GENERAL */
 
 body {
-  font-family: 'Raleway', 'Trebuchet MS', Helvetica, sans-serif; ;
+  font-family: 'Raleway', 'Trebuchet MS', Helvetica, sans-serif;
   color: rgb(7, 74, 115);
   /*#495C71*/
-  background-color: #BCDFEF;
+  background-color: #fafafa; /*#BCDFEF;*?
   /* #bdc3c7 */
+  line-height: 1.65;
 }
 
-#heading, #top-section {
+#about, #whatIdo, #online, #footer {
   text-align: center;
-  max-width: 1000px;
+  max-width: 960px;
   padding-bottom: 5px;
   width: 90%;
   display: block;
+  /*border: black solid 1px;*/
+}
+
+#heading {
+  text-align: center;
+  max-width: 1000px;
+  padding-bottom: 5px;
+  /*width: 90%;*/
+  display: block;
+}
+
+#whatIdo {
+  text-align: left;
 }
 
 
 h1 {
-  font-size: 2em;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+
+  font-size: 4em;
   margin-bottom: 0;
+  /*background-color: rgba(0, 0, 0, 0.2);*/
+  border-radius: 5px;
+
 }
 
-h3 {
-  font-size: 1em;
+#heading {
+  margin-top: 0px;
+  height: 300px;
+  padding-bottom: 100px;
 }
 
+.header {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+
+
+h2 {
+  font-size: 1.75em;
+}
+
+#heading h2 {
+  font-size: 2em;
+  color: #fff;
+}
+
+
+#about h3 {
+  font-size: 1.25em;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+#about p {
+  margin-top: 0px;
+}
+
+
+.top-border {
+  border-top: 2px solid #dfe2e6;
+}
 
 #head-img img {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   width: 100px;
-  border: solid 1px #495C71;
+  /*border: solid 1px #495C71;*/
+  box-shadow: 0 8px 6px -6px black;
 }
+
+
+/* Background heading image
+#ffd400
+*/
+
+.header {
+  /*padding-top: 100px;*/
+  margin-top: 100px;
+  padding-bottom: 100px;
+  /*margin-bottom: 100px;*/
+
+ /* background: linear-gradient(#000, transparent 90%),
+        linear-gradient(0deg, #fff, transparent),
+        #ffd400 url('../img/lyallbay.jpg') no-repeat center;*/
+  background-image: url("../img/lyallbay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center;
+}
+
 
 /* Page navigation stylying */
 
 #menu {
-  background: rgb(7, 74, 115);
+  /*background: rgb(7, 74, 115);*/
   height: 40px;
   padding: 0 5px 0;
   text-align: center;
+  font-size: 1em;
+  font-weight: 700;
 }
 
 #menu ul {
   list-style: none;
+  padding: 0;
 
 }
 
 #menu ul li {
   display: inline-block;
-  width: 84px;
+  width: 90px;
   text-align: center;
+  border-radius: 5px;
+  /*border: #fff solid 1px;*/
+  background-color:rgba(255, 255, 255, 0.2)
 }
 
 #menu ul li a {
@@ -72,42 +159,43 @@ h3 {
 /*rgb(188, 223, 239)*/
 
 #menu ul li.selected {
-  background: #f0f0f0;
-  /*border-top: solid 1px rgb(7, 74, 115);*/
+  /*background: #f0f0f0;*/
+  border: solid 1px rgb(7, 74, 115);
   /*border-bottom: solid 1px rgb(7, 74, 115);*/
 
 }
 
-#menu ul li.selected a {
+/*#menu ul li.selected a {
   color: rgb(7, 74, 115);
-}
+}*/
 
 #menu a:hover  {
-  color: rgb(5, 161, 232);
+  color: rgb(7, 74, 115);
+  /*color: rgb(5, 161, 232);*/
 }
 
-select {
+/*select {
   width: 94%;
   margin: 11px 0 11px 2%;
   float: left;
-}
+}*/
 
 
 
 /* SOCIAL MEDIA AND PROF SITE LINKS*/
 /* LINKS SECTION (instead of nav) */
 
-#links-content {
+/*#links-content {
   /*max-width: 1000px;*/
   /*border-top: solid 1px #495C71;*/
-  /*width: 100%;*/
+  /*width: 100%;
   text-align:center;
   background-color: rgb(7, 74, 115);
 }
 
 
 /* LINKS CONTENT SECTION- layout / structure */
-#links-content ul {
+/*#about ul {
   width: 200px;
   list-style: none;
   padding: 0;
@@ -115,23 +203,24 @@ select {
   margin: 0 auto;
 }
 
-#links-content li {
+#about li {
   display: inline-block;
   margin: 10px 10px;
   min-width: 95px;
 }
+*/
+/*/* PHASES SECTION - layout */
 
-/* PHASES SECTION - layout */
-
-.phases {
-  text-align: center;
-  /*max-width: 1000px;*/
+#online {
+  /*text-align: left;*/
+  max-width: 1000px;
   padding-bottom: 5px;
   width: 90%;
   display: block;
 }
 
-.phases ul {
+#online ul {
+  display: block;
   width: 225px;
   list-style: none;
   padding: 0;
@@ -139,21 +228,54 @@ select {
   margin: 0 auto;
 }
 
-.phases li {
-  display: inline-block;
+#online li {
+  display: left;
   margin: 5px 5px;
-  /*min-width: 95px;*/
+  min-width: 95px;
 }
 
-.phases p {
+#online p {
   margin: 0 10% 20px 10%;
-  font-size: 1em;
+  /*font-size: 1em;*/
 }
 
-#phase_0 {
-  border-bottom: 3px solid rgb(7, 74, 115);
-  padding-bottom: 15px;
-  width: 100%;
+
+#online ul {
+  display: block;
+
+}
+
+#online li {
+  text-align: left;
+  margin-left: 30px;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#online img {
+  height: 30px;
+  width: 30px;
+
+
+}
+
+#online ul li p {
+  display: inline-block;
+  text-align: center;
+  /*color: #333;*/
+  top: 50%;
+  transform: translate(0, -20%);
+  margin-bottom: 0;
+
+}
+
+#online.gh-sites li {
+  margin-left: 0;
+}
+
+
+#whatIdo p {
+  text-align: center;
 }
 
 
@@ -188,20 +310,8 @@ a.selected, a:hover  {
 /*rgb(84, 138, 171)*/
 
 
-#links-content a {
-  font-weight: normal;
-  padding: 15px 10px;
-  color: rgb(188, 223, 239);
-}
-
-
-/* link - visisted */
-#links-content a:visited {
-  /*color: rgb(80, 98, 108);*/
-}
-
 /* selected hover  link */
-#links-content a:hover  {
+#online a:hover  {
   color: rgb(5, 161, 232);
 }
 
