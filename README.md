@@ -1,2 +1,1 @@
-# [libbyschuknight.github.io](http://libbyschuknight.github.io/)
-
+# [libbyschuknight.github.io](https://libbyschuknight.github.io/)
